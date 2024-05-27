@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
+## Introduction
+
+I am currently learning Angular, to be specific Angular 18, this Task Tracker is a demo application that I have build so far while following the [Angular - The Complete Guide (2024 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/?couponCode=D_0524) course.
+
+I am aiming to build more projects based on Angular 18 in the coming months.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
