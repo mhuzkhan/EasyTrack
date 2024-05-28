@@ -43,7 +43,7 @@ jobs:
         run: pnpm install
 
       - name: Build Angular Project
-        run: pnpm run build
+        run: ng deploy --base-href https://mhuzkhan.github.io/EasyTrack/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
