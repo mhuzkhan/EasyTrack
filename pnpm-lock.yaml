@@ -76,7 +76,7 @@ importers:
         specifier: ~2.1.0
         version: 2.1.0(jasmine-core@5.1.2)(karma-jasmine@5.1.0(karma@6.4.3))(karma@6.4.3)
       typescript:
-        specifier: ~5.4.0
+        specifier: 5.4.5
         version: 5.4.5
 
 packages:
