@@ -55,8 +55,8 @@ importers:
         specifier: ~5.1.4
         version: 5.1.4
       angular-cli-ghpages:
-        specifier: 2.0.1
-        version: 2.0.1(chokidar@3.6.0)
+        specifier: 2.0.3
+        version: 2.0.3(chokidar@3.6.0)
       jasmine-core:
         specifier: ~5.4.0
         version: 5.4.0
@@ -150,15 +150,6 @@ packages:
       chokidar:
         optional: true
 
-  '@angular-devkit/core@18.1.1':
-    resolution: {integrity: sha512-YFzn/+8LezX7ZJhMQisvrqfkxJm6+JOtbWFj8K/luK0rTDmE8Z9n9r6kJ36FnHcLJ5MvvVaBc7n1v1wnzdqXpg==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    peerDependencies:
-      chokidar: ^3.5.2
-    peerDependenciesMeta:
-      chokidar:
-        optional: true
-
   '@angular-devkit/core@18.2.9':
     resolution: {integrity: sha512-bsVt//5E0ua7FZfO0dCF/qGGY6KQD34/bNGyRu5B6HedimpdU2/0PGDptksU5v3yKEc9gNw0xC6mT0UsY/R9pA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
@@ -167,10 +158,6 @@ packages:
     peerDependenciesMeta:
       chokidar:
         optional: true
-
-  '@angular-devkit/schematics@18.1.1':
-    resolution: {integrity: sha512-r+DAvVvv+hOuhh19PefPOKa/zDkvzLHz/YOLGq/k1KfJRtNtjCKiDsXp1s6HSzYdJD1H10wnzUIh48uvxfwH5Q==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
 
   '@angular-devkit/schematics@18.2.9':
     resolution: {integrity: sha512-aIY5/IomDOINGCtFYi77uo0acDpdQNNCighfBBUGEBNMQ1eE3oGNGpLAH/qWeuxJndgmxrdKsvws9DdT46kLig==}
@@ -1827,14 +1814,11 @@ packages:
   ajv@8.13.0:
     resolution: {integrity: sha512-PRA911Blj99jR5RMeTunVbNXMF6Lp4vZXnk5GQjcnUWUTsrXtekg/pnmFFI2u/I36Y/2bITGS30GZCXei6uNkA==}
 
-  ajv@8.16.0:
-    resolution: {integrity: sha512-F0twR8U1ZU67JIEtekUcLkXkoO5mMMmgGD8sK/xUFzJ805jxHQl92hImFAqqXMyMYjSPOyUPAwHYhB72g5sTXw==}
-
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  angular-cli-ghpages@2.0.1:
-    resolution: {integrity: sha512-Wv9364lsmM91fP6oE9wh0dVaT8LZQLM9WMr/VqK/5LSPSyOCttp+c+5xnZRFrjTC2gz0Ot3am8Yuwoyjdowy7g==}
+  angular-cli-ghpages@2.0.3:
+    resolution: {integrity: sha512-eVyyCgtoXtSXxsgI59fYow+wBrAOAxPZ6eMwIieSpQI+8Gunq2DtNalicEoDPqD69LHaPmNiI8jEwgkzZt0WTw==}
     hasBin: true
 
   ansi-colors@4.1.3:
@@ -3126,9 +3110,6 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
-
-  magic-string@0.30.10:
-    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
 
   magic-string@0.30.11:
     resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
@@ -4589,17 +4570,6 @@ snapshots:
     optionalDependencies:
       chokidar: 3.6.0
 
-  '@angular-devkit/core@18.1.1(chokidar@3.6.0)':
-    dependencies:
-      ajv: 8.16.0
-      ajv-formats: 3.0.1(ajv@8.16.0)
-      jsonc-parser: 3.3.1
-      picomatch: 4.0.2
-      rxjs: 7.8.1
-      source-map: 0.7.4
-    optionalDependencies:
-      chokidar: 3.6.0
-
   '@angular-devkit/core@18.2.9(chokidar@3.6.0)':
     dependencies:
       ajv: 8.17.1
@@ -4610,16 +4580,6 @@ snapshots:
       source-map: 0.7.4
     optionalDependencies:
       chokidar: 3.6.0
-
-  '@angular-devkit/schematics@18.1.1(chokidar@3.6.0)':
-    dependencies:
-      '@angular-devkit/core': 18.1.1(chokidar@3.6.0)
-      jsonc-parser: 3.3.1
-      magic-string: 0.30.10
-      ora: 5.4.1
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - chokidar
 
   '@angular-devkit/schematics@18.2.9(chokidar@3.6.0)':
     dependencies:
@@ -6387,10 +6347,6 @@ snapshots:
     optionalDependencies:
       ajv: 8.13.0
 
-  ajv-formats@3.0.1(ajv@8.16.0):
-    optionalDependencies:
-      ajv: 8.16.0
-
   ajv-formats@3.0.1(ajv@8.17.1):
     optionalDependencies:
       ajv: 8.17.1
@@ -6418,13 +6374,6 @@ snapshots:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  ajv@8.16.0:
-    dependencies:
-      fast-deep-equal: 3.1.3
-      json-schema-traverse: 1.0.0
-      require-from-string: 2.0.2
-      uri-js: 4.4.1
-
   ajv@8.17.1:
     dependencies:
       fast-deep-equal: 3.1.3
@@ -6432,11 +6381,11 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  angular-cli-ghpages@2.0.1(chokidar@3.6.0):
+  angular-cli-ghpages@2.0.3(chokidar@3.6.0):
     dependencies:
       '@angular-devkit/architect': 0.1800.7(chokidar@3.6.0)
-      '@angular-devkit/core': 18.1.1(chokidar@3.6.0)
-      '@angular-devkit/schematics': 18.1.1(chokidar@3.6.0)
+      '@angular-devkit/core': 18.2.9(chokidar@3.6.0)
+      '@angular-devkit/schematics': 18.2.9(chokidar@3.6.0)
       commander: 3.0.2
       fs-extra: 11.2.0
       gh-pages: 3.2.3
@@ -7870,10 +7819,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  magic-string@0.30.10:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.0
 
   magic-string@0.30.11:
     dependencies:
